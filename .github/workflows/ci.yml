@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet restore PumpSharp.slnx --locked-mode
+      - run: dotnet build PumpSharp.slnx -c Release --no-restore
+      - run: dotnet test --solution PumpSharp.slnx -c Release --no-build
+      - run: dotnet pack src/PumpSharp/PumpSharp.csproj -c Release --no-build -o artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: packages
+          path: artifacts/*

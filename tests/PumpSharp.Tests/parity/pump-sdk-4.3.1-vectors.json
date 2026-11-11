@@ -1,0 +1,3226 @@
+{
+ "source": "@pump-fun/pump-sdk",
+ "version": "4.3.1",
+ "generatedBy": "executing the official SDK, not transcribing it",
+ "setupCheck": {
+  "netIsolatedMatchesCore": true,
+  "coreForNet": "34612903225806",
+  "exportedOnSameNumberAsGross": "34612903192310",
+  "grossMinusCore": "-33496"
+ },
+ "vectorCount": 228,
+ "vectors": [
+  {
+   "group": "curve-buy",
+   "name": "fresh/1",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "35766"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/2",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "tokensOut": "71533"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/3",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "3"
+   },
+   "outputs": {
+    "tokensOut": "107299"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/1000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "35766665"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/999999",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "999999"
+   },
+   "outputs": {
+    "tokensOut": "35765438719"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/1000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "tokensOut": "35765474484"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/10000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "10000000"
+   },
+   "outputs": {
+    "tokensOut": "357547484171"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/100000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "100000000"
+   },
+   "outputs": {
+    "tokensOut": "3564784053156"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/1000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "34612903225806"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/5000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "5000000000"
+   },
+   "outputs": {
+    "tokensOut": "153285714285714"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/10000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "268250000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/30000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "30000000000"
+   },
+   "outputs": {
+    "tokensOut": "536500000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/85000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "85000000000"
+   },
+   "outputs": {
+    "tokensOut": "793086956521739"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "fresh/100000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "793100000000000"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/1",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/2",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/1000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/1000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "27"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/1000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "quoteOut": "27958"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/1000000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "27932960"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/34600000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "34600000000000"
+   },
+   "outputs": {
+    "quoteOut": "937161430"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/100000000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "2557544757"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "fresh/793100000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "793100000000000"
+   },
+   "outputs": {
+    "quoteOut": "12750120572"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/1",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "33496"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/2",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "tokensOut": "66993"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/3",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "3"
+   },
+   "outputs": {
+    "tokensOut": "100490"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/1000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "33496773"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/999999",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "999999"
+   },
+   "outputs": {
+    "tokensOut": "33495660192"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/1000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "tokensOut": "33495693687"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/10000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "10000000"
+   },
+   "outputs": {
+    "tokensOut": "334859722670"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/100000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "100000000"
+   },
+   "outputs": {
+    "tokensOut": "3338906752411"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/1000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "32450000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/5000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "5000000000"
+   },
+   "outputs": {
+    "tokensOut": "144222222222222"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/10000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "253268292682926"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/30000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "30000000000"
+   },
+   "outputs": {
+    "tokensOut": "510688524590163"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/85000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "85000000000"
+   },
+   "outputs": {
+    "tokensOut": "758500000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "early/100000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "758500000000000"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/1",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/2",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/1000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/1000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "29"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/1000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "quoteOut": "29853"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/1000000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "29824898"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/34600000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "34600000000000"
+   },
+   "outputs": {
+    "quoteOut": "999627213"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/100000000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "2723120168"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "early/793100000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "793100000000000"
+   },
+   "outputs": {
+    "quoteOut": "13424024024"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/1",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "15217"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/2",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "tokensOut": "30434"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/3",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "3"
+   },
+   "outputs": {
+    "tokensOut": "45652"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/1000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "15217390"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/999999",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "999999"
+   },
+   "outputs": {
+    "tokensOut": "15217045281"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/1000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "tokensOut": "15217060498"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/10000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "10000000"
+   },
+   "outputs": {
+    "tokensOut": "152140838948"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/100000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "100000000"
+   },
+   "outputs": {
+    "tokensOut": "1518438177874"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/1000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "14893617021276"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/5000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "5000000000"
+   },
+   "outputs": {
+    "tokensOut": "68627450980392"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/10000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "125000000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/30000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "30000000000"
+   },
+   "outputs": {
+    "tokensOut": "276315789473684"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/85000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "85000000000"
+   },
+   "outputs": {
+    "tokensOut": "420100000000000"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "midway/100000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "420100000000000"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/1",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/2",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/1000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/1000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "65"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/1000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "quoteOut": "65714"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/1000000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "65620542"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/34600000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "34600000000000"
+   },
+   "outputs": {
+    "quoteOut": "2166621290"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/100000000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "5750000000"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "midway/793100000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "793100000000000"
+   },
+   "outputs": {
+    "quoteOut": "24434130332"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/1",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "2"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/2",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "tokensOut": "5"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/3",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "3"
+   },
+   "outputs": {
+    "tokensOut": "8"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/1000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "2795"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/999999",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "999999"
+   },
+   "outputs": {
+    "tokensOut": "2795896"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/1000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "tokensOut": "2795899"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/10000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "10000000"
+   },
+   "outputs": {
+    "tokensOut": "27958990"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/100000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "100000000"
+   },
+   "outputs": {
+    "tokensOut": "279589674"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/1000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "2795873291"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/5000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "5000000000"
+   },
+   "outputs": {
+    "tokensOut": "13978845347"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/10000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "27956388034"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/30000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "30000000000"
+   },
+   "outputs": {
+    "tokensOut": "83853535824"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/85000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "85000000000"
+   },
+   "outputs": {
+    "tokensOut": "237463332867"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "late/100000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "279329608938"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/1",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/2",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/1000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "quoteOut": "357"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/1000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "357666"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/1000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "quoteOut": "357665474"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/1000000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "356478405315"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/34600000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "34600000000000"
+   },
+   "outputs": {
+    "quoteOut": "11095576808129"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/100000000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "26825000000000"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "late/793100000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "793100000000000"
+   },
+   "outputs": {
+    "quoteOut": "77851642118744"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/1",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "0"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/2",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "tokensOut": "1"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/3",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "3"
+   },
+   "outputs": {
+    "tokensOut": "2"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/1000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/999999",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "999999"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/1000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/10000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "10000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/100000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "100000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/1000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/5000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "5000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/10000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/30000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "30000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/85000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "85000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-buy",
+   "name": "tiny-reserves/100000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/1",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/2",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "2"
+   },
+   "outputs": {
+    "quoteOut": "1"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/1000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "quoteOut": "500"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/1000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/1000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/1000000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/34600000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "34600000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/100000000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "curve-sell",
+   "name": "tiny-reserves/793100000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "793100000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/1",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/2",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/3",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/7",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/9999",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/10000",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/10001",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/1000000",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p0/c0/1000000007",
+   "inputs": {
+    "protocolFeeBps": 0,
+    "creatorFeeBps": 0,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "0"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/1",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/2",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/3",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/7",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/9999",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/10000",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/10001",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/1000000",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "100"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p1/c0/1000000007",
+   "inputs": {
+    "protocolFeeBps": 1,
+    "creatorFeeBps": 0,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "100001"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/1",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/2",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/3",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/7",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/9999",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "100"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/10000",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "100"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/10001",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "102"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/1000000",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "10000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p95/c5/1000000007",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "10000002"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/1",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/2",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/3",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/7",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/9999",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "200"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/10000",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "200"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/10001",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "202"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/1000000",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "20000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p100/c100/1000000007",
+   "inputs": {
+    "protocolFeeBps": 100,
+    "creatorFeeBps": 100,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "20000002"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/1",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/2",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/3",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/7",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/9999",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "100"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/10000",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "100"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/10001",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "102"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/1000000",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "10000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p30/c70/1000000007",
+   "inputs": {
+    "protocolFeeBps": 30,
+    "creatorFeeBps": 70,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "10000002"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/1",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "2"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/2",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "3"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/3",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "4"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/7",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "8"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/9999",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "10000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/10000",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "10000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/10001",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "10002"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/1000000",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "1000000"
+   }
+  },
+  {
+   "group": "fee",
+   "name": "p9999/c1/1000000007",
+   "inputs": {
+    "protocolFeeBps": 9999,
+    "creatorFeeBps": 1,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "1000000008"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "1",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "2",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "2"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "3",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "3"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "7",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "7"
+   },
+   "outputs": {
+    "feeUnits": "1"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "9999",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "9999"
+   },
+   "outputs": {
+    "feeUnits": "95"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "10000",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "10000"
+   },
+   "outputs": {
+    "feeUnits": "95"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "10001",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "10001"
+   },
+   "outputs": {
+    "feeUnits": "96"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "1000000",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1000000"
+   },
+   "outputs": {
+    "feeUnits": "9500"
+   }
+  },
+  {
+   "group": "fee-no-creator",
+   "name": "1000000007",
+   "inputs": {
+    "protocolFeeBps": 95,
+    "creatorFeeBps": 5,
+    "amount": "1000000007"
+   },
+   "outputs": {
+    "feeUnits": "9500001"
+   }
+  },
+  {
+   "group": "unpriceable",
+   "name": "complete",
+   "inputs": {
+    "complete": true
+   },
+   "outputs": {
+    "tokensOut": "34612903225806",
+    "quoteOut": "27958"
+   }
+  },
+  {
+   "group": "unpriceable",
+   "name": "zero-virtual-token",
+   "inputs": {
+    "virtualToken": "0"
+   },
+   "outputs": {
+    "tokensOut": "0",
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "unpriceable",
+   "name": "migrated",
+   "inputs": {
+    "virtualToken": "0",
+    "virtualQuote": "0"
+   },
+   "outputs": {
+    "tokensOut": "0",
+    "quoteOut": "0"
+   }
+  },
+  {
+   "group": "negative-quote-reserves",
+   "name": "9223372036854775808",
+   "inputs": {
+    "virtualQuote": "9223372036854775808",
+    "buyAmountIn": "1000000000",
+    "sellAmountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "116334",
+    "quoteOut": "8587869680497929"
+   }
+  },
+  {
+   "group": "negative-quote-reserves",
+   "name": "9223372036854775809",
+   "inputs": {
+    "virtualQuote": "9223372036854775809",
+    "buyAmountIn": "1000000000",
+    "sellAmountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "116334",
+    "quoteOut": "8587869680497929"
+   }
+  },
+  {
+   "group": "negative-quote-reserves",
+   "name": "10223372036854775808",
+   "inputs": {
+    "virtualQuote": "10223372036854775808",
+    "buyAmountIn": "1000000000",
+    "sellAmountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "104955",
+    "quoteOut": "9518968376959754"
+   }
+  },
+  {
+   "group": "negative-quote-reserves",
+   "name": "18446744073709551615",
+   "inputs": {
+    "virtualQuote": "18446744073709551615",
+    "buyAmountIn": "1000000000",
+    "sellAmountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "58167",
+    "quoteOut": "17175739360995858"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "fresh/1",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "35766"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "fresh/1000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "35766665"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "fresh/1000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "34612903225806"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "fresh/10000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "268250000000000"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "fresh/1000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "27"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "fresh/1000000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "27932960"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "fresh/100000000000000",
+   "inputs": {
+    "name": "fresh",
+    "virtualToken": "1073000000000000",
+    "virtualQuote": "30000000000",
+    "realToken": "793100000000000",
+    "realQuote": "0",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "2557544757"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "early/1",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "33496"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "early/1000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "33496773"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "early/1000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "32450000000000"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "early/10000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "253268292682926"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "early/1000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "29"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "early/1000000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "29824898"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "early/100000000000000",
+   "inputs": {
+    "name": "early",
+    "virtualToken": "1038400000000000",
+    "virtualQuote": "31000000000",
+    "realToken": "758500000000000",
+    "realQuote": "1000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "2723120168"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "midway/1",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "15217"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "midway/1000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "15217390"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "midway/1000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "14893617021276"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "midway/10000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "125000000000000"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "midway/1000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "65"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "midway/1000000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "65620542"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "midway/100000000000000",
+   "inputs": {
+    "name": "midway",
+    "virtualToken": "700000000000000",
+    "virtualQuote": "46000000000",
+    "realToken": "420100000000000",
+    "realQuote": "16000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "5750000000"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "late/1",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "2"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "late/1000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "2795"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "late/1000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "2795873291"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "late/10000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "27956388034"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "late/1000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "357666"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "late/1000000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "356478405315"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "late/100000000000000",
+   "inputs": {
+    "name": "late",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "26825000000000"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "tiny-reserves/1",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1"
+   },
+   "outputs": {
+    "tokensOut": "0"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "tiny-reserves/1000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "tiny-reserves/1000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "quote-mint-buy",
+   "name": "tiny-reserves/10000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "500"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "tiny-reserves/1000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "tiny-reserves/1000000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "quote-mint-sell",
+   "name": "tiny-reserves/100000000000000",
+   "inputs": {
+    "name": "tiny-reserves",
+    "virtualToken": "1000",
+    "virtualQuote": "1000",
+    "realToken": "500",
+    "realQuote": "500",
+    "amountIn": "100000000000000"
+   },
+   "outputs": {
+    "quoteOut": "999"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "near-complete/1000000000",
+   "inputs": {
+    "name": "near-complete",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "2795873288"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "near-complete/10000000000",
+   "inputs": {
+    "name": "near-complete",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "27956388031"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "near-complete/100000000000",
+   "inputs": {
+    "name": "near-complete",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "279329608935"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "near-complete/1000000000000",
+   "inputs": {
+    "name": "near-complete",
+    "virtualToken": "300000000000000",
+    "virtualQuote": "107300000000000",
+    "realToken": "20100000000000",
+    "realQuote": "77000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "2770083102490"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "almost-done/1000000000",
+   "inputs": {
+    "name": "almost-done",
+    "virtualToken": "290000000000000",
+    "virtualQuote": "110000000000000",
+    "realToken": "1000000000",
+    "realQuote": "85000000000",
+    "amountIn": "1000000000"
+   },
+   "outputs": {
+    "tokensOut": "1494260683591"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "almost-done/10000000000",
+   "inputs": {
+    "name": "almost-done",
+    "virtualToken": "290000000000000",
+    "virtualQuote": "110000000000000",
+    "realToken": "1000000000",
+    "realQuote": "85000000000",
+    "amountIn": "10000000000"
+   },
+   "outputs": {
+    "tokensOut": "20953846513772"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "almost-done/100000000000",
+   "inputs": {
+    "name": "almost-done",
+    "virtualToken": "290000000000000",
+    "virtualQuote": "110000000000000",
+    "realToken": "1000000000",
+    "realQuote": "85000000000",
+    "amountIn": "100000000000"
+   },
+   "outputs": {
+    "tokensOut": "111414623885939"
+   }
+  },
+  {
+   "group": "crossing",
+   "name": "almost-done/1000000000000",
+   "inputs": {
+    "name": "almost-done",
+    "virtualToken": "290000000000000",
+    "virtualQuote": "110000000000000",
+    "realToken": "1000000000",
+    "realQuote": "85000000000",
+    "amountIn": "1000000000000"
+   },
+   "outputs": {
+    "tokensOut": "190619912828551"
+   }
+  }
+ ]
+}

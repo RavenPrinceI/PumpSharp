@@ -1,0 +1,25 @@
+# The repository is authored on Windows and runs in a Linux container, so line
+# endings are normalised in git rather than left to each checkout.
+* text=auto eol=lf
+
+# Shell scripts and Dockerfiles are executed by Linux tooling; CRLF breaks a
+# shebang and silently corrupts a heredoc.
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# PowerShell on Windows is happier with CRLF, and these scripts run on both.
+*.ps1 text eol=crlf
+
+# Keep evidence captures byte-stable: a gate report cites them, and a line
+# ending rewrite would change a file that is supposed to be a record.
+*.jsonl -text
+
+# Binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
+*.nupkg binary
+*.db binary

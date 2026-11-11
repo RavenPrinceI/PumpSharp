@@ -1,0 +1,636 @@
+namespace PumpSharp;
+
+/// <summary>Why a PumpSwap pool quote could not be produced.</summary>
+public enum PumpSwapQuoteRefusal
+{
+    /// <summary>Quoted.</summary>
+    None = 0,
+
+    /// <summary>A zero amount. There is no price for nothing.</summary>
+    ZeroAmount = 1,
+
+    /// <summary>A reserve is zero, so the pool holds no market.</summary>
+    EmptyPool = 2,
+
+    /// <summary>
+    /// A buy for at least the pool's whole base reserve, or a sale for at
+    /// least its whole quote reserve.
+    ///
+    /// On chain such an order fails, so it is refused rather than clamped. A
+    /// clamped answer would turn an impossible trade into a plausible one.
+    /// </summary>
+    ExceedsReserves = 3,
+
+    /// <summary>
+    /// Reserved refusal for an unsupported pool interpretation. Callers must
+    /// resolve signed effective reserves and real liquidity before quoting.
+    /// </summary>
+    UnpriceablePool = 4,
+
+    /// <summary>A fee rate at or above 100%, which would make the gross-up meaningless.</summary>
+    FeeRateOutOfRange = 5,
+
+    /// <summary>A value exceeded what a u64 can carry.</summary>
+    Overflow = 6,
+
+    /// <summary>
+    /// The fee on a sale's proceeds exceeded the proceeds, so the payout would
+    /// be negative.
+    ///
+    /// Independent fee ceilings can exceed very small proceeds. The SDK boost
+    /// vectors confirm that the SDK refuses this case too.
+    /// </summary>
+    FeeExceedsProceeds = 7,
+
+    /// <summary>Pricing reserves include virtual liquidity that the real vault cannot pay out.</summary>
+    ExceedsRealReserves = 8,
+
+    /// <summary>Signed effective reserves or accrued fees contradict the vault balance.</summary>
+    InvalidReserveState = 9,
+}
+
+/// <summary>
+/// The three fee rates a PumpSwap trade pays, in basis points.
+///
+/// The rates depend on pool state, not on the order. The quote mint selects
+/// the schedule (SOL-like, listed stable or exotic) and market cap selects the
+/// tier within it. The SDK states that the on-chain argument named for trade
+/// size is ignored, so tiering on order size would be wrong for large pools.
+/// This type takes rates that are already resolved. Use
+/// <see cref="PumpSwapFeeSchedule"/> with a decoded <c>FeeConfig</c> to
+/// resolve them.
+/// </summary>
+public readonly record struct PumpSwapFees
+{
+    /// <summary>Liquidity-provider fee, basis points.</summary>
+    public required ulong LpFeeBps { get; init; }
+
+    /// <summary>Protocol fee, basis points.</summary>
+    public required ulong ProtocolFeeBps { get; init; }
+
+    /// <summary>
+    /// Coin-creator fee, basis points.
+    ///
+    /// Charged only when the pool has a coin creator. A pool whose
+    /// <c>coin_creator</c> is the default key pays nothing here, whatever the
+    /// schedule says. The SDK's <c>computeFeesBps</c> still returns a non-zero
+    /// rate for such a pool, so reading the schedule alone overstates the cost.
+    /// The vectors confirm that a 30 bps creator rate with no coin creator
+    /// charges 0.
+    /// </summary>
+    public required ulong CreatorFeeBps { get; init; }
+
+    /// <summary>Whether the pool has a coin creator. <see cref="CreatorFeeBps"/> applies only when it does.</summary>
+    public required bool HasCoinCreator { get; init; }
+
+    /// <summary>No fees: the bare curve, as the parity vectors test it.</summary>
+    public static PumpSwapFees None => new()
+    {
+        LpFeeBps = 0,
+        ProtocolFeeBps = 0,
+        CreatorFeeBps = 0,
+        HasCoinCreator = false,
+    };
+
+    /// <summary>The creator rate that actually applies.</summary>
+    public ulong EffectiveCreatorFeeBps => HasCoinCreator ? CreatorFeeBps : 0;
+
+    /// <summary>Sum of the applying rates. Used only for range checks, never to compose a fee.</summary>
+    public UInt128 TotalBps => (UInt128)LpFeeBps + ProtocolFeeBps + EffectiveCreatorFeeBps;
+}
+
+/// <summary>What a pool quote produced.</summary>
+public readonly record struct PumpSwapPoolQuote
+{
+    /// <summary>Base units bought or sold.</summary>
+    public required ulong BaseUnits { get; init; }
+
+    /// <summary>
+    /// The swap's own quote amount, before any fee.
+    ///
+    /// Kept separate from <see cref="QuoteUnits"/> because the fee is composed
+    /// on this number, as in the SDK. Reporting only the total would hide how
+    /// the fee was computed.
+    /// </summary>
+    public required ulong NetQuoteUnits { get; init; }
+
+    /// <summary>Total fee, in quote units.</summary>
+    public required ulong FeeUnits { get; init; }
+
+    /// <summary>
+    /// What the trader actually pays (a buy) or receives (a sale).
+    ///
+    /// A buy pays <see cref="NetQuoteUnits"/> plus the fee; a sale receives
+    /// the net minus the fee.
+    /// </summary>
+    public required ulong QuoteUnits { get; init; }
+}
+
+/// <summary>
+/// Constant-product quote maths for a PumpSwap pool, the venue a token
+/// trades on after its bonding curve completes.
+///
+/// The arithmetic is checked against 519 vectors generated by running
+/// <c>@pump-fun/pump-swap-sdk</c> 2.2.0
+/// (<c>tests/PumpSharp.Tests/parity/pump-swap-sdk-2.2.0-vectors.json</c>).
+/// The vectors settled three points:
+///
+/// <list type="bullet">
+/// <item>The fee is three independent ceilings summed, not one ceiling of
+/// the summed rate. Seventeen vectors tell the two apart. This error matters
+/// because it does not cancel when strategies are compared: it costs
+/// high-turnover strategies the most.</item>
+/// <item>The creator fee applies only when the pool has a coin creator.</item>
+/// <item>Rounding depends on direction. A buy's cost rounds up and a sale's
+/// proceeds round down, so the pool never rounds in the trader's
+/// favour.</item>
+/// </list>
+///
+/// The coverage audit ties these functions, the fee schedules, boost, mayhem
+/// and transfer and debit composition to the official SDK output. That claim
+/// covers only the audited routes. The exact-quote fitting functions follow
+/// their documented contracts and state how they relate to the SDK's
+/// one-unit shaves; callers can choose the conservative buy variant.
+///
+/// When a path cannot produce a correct number it returns false with a
+/// <see cref="PumpSwapQuoteRefusal"/>. Clamping instead would turn a trade
+/// the chain rejects into a plausible small payout.
+/// </summary>
+public static class PumpSwapQuote
+{
+    /// <summary>Basis-point denominator.</summary>
+    private const ulong BasisPointScale = 10_000;
+
+    /// <summary>Separates the liquidity used for pricing from the liquidity
+    /// available to settle a trade. See the SDK's
+    /// VIRTUAL_QUOTE_RESERVES_FEE_ADJUSTMENT.md. Bounds are checked before an
+    /// untrusted i128 is added, including its extreme values.</summary>
+    public static bool TryQuoteReserves(ulong quoteVaultUnits, Int128 virtualQuoteUnits,
+        ulong protocolFeeUnits, ulong creatorFeeUnits, out ulong effectiveQuoteUnits,
+        out ulong realQuoteUnits, out PumpSwapQuoteRefusal refusal)
+    {
+        effectiveQuoteUnits = realQuoteUnits = 0;
+        refusal = PumpSwapQuoteRefusal.InvalidReserveState;
+        var buckets = (UInt128)protocolFeeUnits + creatorFeeUnits;
+        if (buckets > quoteVaultUnits || virtualQuoteUnits < -(Int128)quoteVaultUnits
+            || virtualQuoteUnits > (Int128)ulong.MaxValue - quoteVaultUnits) return false;
+        effectiveQuoteUnits = (ulong)((Int128)quoteVaultUnits + virtualQuoteUnits);
+        realQuoteUnits = quoteVaultUnits - (ulong)buckets;
+        refusal = quoteVaultUnits == 0 ? PumpSwapQuoteRefusal.EmptyPool : PumpSwapQuoteRefusal.None;
+        return refusal == PumpSwapQuoteRefusal.None;
+    }
+
+    /// <summary>
+    /// Quotes a buy of exactly <paramref name="baseOutUnits"/> base units.
+    ///
+    /// Matches the SDK's <c>buyBaseInput</c> on every vector:
+    /// <c>net = ceil(quoteReserve * baseOut / (baseReserve - baseOut))</c>,
+    /// then the fee on top.
+    /// </summary>
+    public static bool TryQuoteBuyExactBase(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        ulong baseOutUnits,
+        in PumpSwapFees fees,
+        out PumpSwapPoolQuote quote,
+        out PumpSwapQuoteRefusal refusal)
+    {
+        quote = default;
+
+        refusal = Validate(baseReserveUnits, quoteReserveUnits, baseOutUnits, fees);
+        if (refusal != PumpSwapQuoteRefusal.None)
+        {
+            return false;
+        }
+
+        // An order for the whole reserve or more has no answer. On chain it
+        // fails rather than draining the pool.
+        if (baseOutUnits >= baseReserveUnits)
+        {
+            refusal = PumpSwapQuoteRefusal.ExceedsReserves;
+            return false;
+        }
+
+        var net = CeilDiv(
+            (UInt128)quoteReserveUnits * baseOutUnits,
+            (UInt128)baseReserveUnits - baseOutUnits);
+
+        if (!TryNarrow(net, out var netUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        var fee = ComposeFee(netUnits, fees);
+        var total = (UInt128)netUnits + fee;
+
+        if (!TryNarrow(total, out var totalUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        quote = new PumpSwapPoolQuote
+        {
+            BaseUnits = baseOutUnits,
+            NetQuoteUnits = netUnits,
+            FeeUnits = fee,
+            QuoteUnits = totalUnits,
+        };
+
+        return true;
+    }
+
+    /// <summary>
+    /// Quotes a sale of exactly <paramref name="baseInUnits"/> base units.
+    ///
+    /// Matches the SDK's <c>sellBaseInput</c> on every vector:
+    /// <c>gross = floor(quoteReserve * baseIn / (baseReserve + baseIn))</c>,
+    /// then the fee is deducted.
+    ///
+    /// This is the path a position exits through. The proceeds round down and
+    /// the fee rounds up, so the payout is never optimistic.
+    /// </summary>
+    public static bool TryQuoteSellExactBase(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        ulong baseInUnits,
+        in PumpSwapFees fees,
+        out PumpSwapPoolQuote quote,
+        out PumpSwapQuoteRefusal refusal,
+        ulong? realQuoteReserveUnits = null)
+    {
+        quote = default;
+
+        refusal = Validate(baseReserveUnits, quoteReserveUnits, baseInUnits, fees);
+        if (refusal != PumpSwapQuoteRefusal.None)
+        {
+            return false;
+        }
+
+        var gross = (UInt128)quoteReserveUnits * baseInUnits
+            / ((UInt128)baseReserveUnits + baseInUnits);
+
+        if (!TryNarrow(gross, out var grossUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        var fee = ComposeFee(grossUnits, fees);
+
+        // A very small sale yields zero proceeds, and that is the SDK's answer
+        // too: selling one base unit of a token worth 4e-4 quote units pays
+        // nothing (checked at in=1, in=2 and in=999).
+        //
+        // This is not refused. Whether a zero-proceeds fill is worth taking is the
+        // caller's decision, and refusing here would make the quote disagree with
+        // the protocol. A negative payout is different; see FeeExceedsProceeds.
+        if (fee > grossUnits)
+        {
+            refusal = PumpSwapQuoteRefusal.FeeExceedsProceeds;
+            return false;
+        }
+
+        // The LP fee stays in the pool as liquidity. Protocol and creator fees are
+        // taken out only after this settlement check, as in the SDK's sellAmounts().
+        if (grossUnits - CeilBps(grossUnits, fees.LpFeeBps) > (realQuoteReserveUnits ?? quoteReserveUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.ExceedsRealReserves;
+            return false;
+        }
+
+        quote = new PumpSwapPoolQuote
+        {
+            BaseUnits = baseInUnits,
+            NetQuoteUnits = grossUnits,
+            FeeUnits = fee,
+            QuoteUnits = grossUnits - fee,
+        };
+
+        return true;
+    }
+
+    /// <summary>
+    /// Quotes a buy for a budget of exactly <paramref name="quoteInUnits"/>
+    /// quote units, fee included.
+    ///
+    /// This differs from the SDK by one unit on purpose. The SDK's
+    /// <c>buyQuoteInput</c> prices on <c>budget - 1</c>: every vector matches
+    /// <c>floor(baseReserve * (q-1) / (quoteReserve + q-1))</c> and none matches
+    /// the unshaved form. The SDK's own documentation says the net is "shaved
+    /// until net + fees fits the budget", which makes the shave part of the
+    /// SDK's budget fitting, not the program's arithmetic.
+    ///
+    /// So this computes the unshaved constant product, and the parity test
+    /// checks that the SDK's answer is lower by exactly that shave. The same
+    /// thing happened with the bonding-curve SDK, whose exported buy function
+    /// prices on <c>amount - 1</c>.
+    ///
+    /// One quote unit is negligible, but this quote is the more optimistic of
+    /// the two. A caller that must not overstate a fill should pass
+    /// <c>conservativeInput</c> to get the SDK's value.
+    /// </summary>
+    public static bool TryQuoteBuyExactQuote(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        ulong quoteInUnits,
+        in PumpSwapFees fees,
+        out PumpSwapPoolQuote quote,
+        out PumpSwapQuoteRefusal refusal,
+        bool conservativeInput = false)
+    {
+        quote = default;
+
+        refusal = Validate(baseReserveUnits, quoteReserveUnits, quoteInUnits, fees);
+        if (refusal != PumpSwapQuoteRefusal.None)
+        {
+            return false;
+        }
+
+        // The budget covers the net plus the fee composed on that net. Three
+        // independent ceilings cannot be inverted by dividing by a rate, so the
+        // net is found by searching down from an estimate.
+        if (!TryFitNet(quoteInUnits, fees, out var netUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.ZeroAmount;
+            return false;
+        }
+
+        // Callers can opt into the SDK's one-unit shave. The unshaved form is the
+        // default so existing parity data stays valid.
+        var pricingInput = conservativeInput ? netUnits - 1 : netUnits;
+        var baseOut = (UInt128)baseReserveUnits * pricingInput
+            / ((UInt128)quoteReserveUnits + pricingInput);
+
+        if (!TryNarrow(baseOut, out var baseOutUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        if (baseOutUnits == 0)
+        {
+            refusal = PumpSwapQuoteRefusal.ZeroAmount;
+            return false;
+        }
+
+        var fee = ComposeFee(netUnits, fees);
+
+        quote = new PumpSwapPoolQuote
+        {
+            BaseUnits = baseOutUnits,
+            NetQuoteUnits = netUnits,
+            FeeUnits = fee,
+            QuoteUnits = netUnits + fee,
+        };
+
+        return true;
+    }
+
+    /// <summary>
+    /// Quotes the base units that must be sold to receive exactly
+    /// <paramref name="quoteOutUnits"/> quote units after fees.
+    ///
+    /// The gross is chosen so that the gross minus its own fee covers the
+    /// request. Then <c>baseIn = ceil(baseReserve * gross / (quoteReserve -
+    /// gross))</c>, which matches the SDK once the SDK's gross is used. The
+    /// SDK's own gross-up lands one unit short (a request of 1,000,000 nets
+    /// 999,999), the same shave as <see cref="TryQuoteBuyExactQuote"/>. This
+    /// function covers the full request, and the parity test records the SDK's
+    /// shave instead of asserting equality.
+    /// </summary>
+    public static bool TryQuoteSellExactQuote(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        ulong quoteOutUnits,
+        in PumpSwapFees fees,
+        out PumpSwapPoolQuote quote,
+        out PumpSwapQuoteRefusal refusal,
+        ulong? realQuoteReserveUnits = null)
+    {
+        quote = default;
+
+        refusal = Validate(baseReserveUnits, quoteReserveUnits, quoteOutUnits, fees);
+        if (refusal != PumpSwapQuoteRefusal.None)
+        {
+            return false;
+        }
+
+        if (!TryGrossUp(quoteOutUnits, fees, out var grossUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        // Taking the pool's whole quote reserve cannot settle, and clamping would
+        // invent a fill.
+        if (grossUnits >= quoteReserveUnits)
+        {
+            refusal = PumpSwapQuoteRefusal.ExceedsReserves;
+            return false;
+        }
+
+        if (grossUnits - CeilBps(grossUnits, fees.LpFeeBps) > (realQuoteReserveUnits ?? quoteReserveUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.ExceedsRealReserves;
+            return false;
+        }
+
+        var baseIn = CeilDiv(
+            (UInt128)baseReserveUnits * grossUnits,
+            (UInt128)quoteReserveUnits - grossUnits);
+
+        if (!TryNarrow(baseIn, out var baseInUnits))
+        {
+            refusal = PumpSwapQuoteRefusal.Overflow;
+            return false;
+        }
+
+        quote = new PumpSwapPoolQuote
+        {
+            BaseUnits = baseInUnits,
+            NetQuoteUnits = grossUnits,
+            FeeUnits = grossUnits - quoteOutUnits,
+            QuoteUnits = quoteOutUnits,
+        };
+
+        return true;
+    }
+
+    /// <summary>
+    /// The total fee on an amount: three independent ceilings, summed.
+    ///
+    /// Seventeen vectors distinguish this from one ceiling of the summed rate,
+    /// and all of them agree with this form. The difference is at most a couple
+    /// of units per trade, but it grows with turnover and does not cancel when
+    /// strategies are compared.
+    /// </summary>
+    public static ulong ComposeFee(ulong amountUnits, in PumpSwapFees fees)
+    {
+        var lp = CeilBps(amountUnits, fees.LpFeeBps);
+        var protocol = CeilBps(amountUnits, fees.ProtocolFeeBps);
+        var creator = CeilBps(amountUnits, fees.EffectiveCreatorFeeBps);
+
+        return checked(lp + protocol + creator);
+    }
+
+    /// <summary>Spot price of one base unit in quote units, scaled by 10^<paramref name="scaleDigits"/>.</summary>
+    public static bool TrySpotPrice(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        int scaleDigits,
+        out UInt128 scaledPrice)
+    {
+        scaledPrice = default;
+
+        if (baseReserveUnits == 0 || quoteReserveUnits == 0 || scaleDigits is < 0 or > 38)
+        {
+            return false;
+        }
+
+        var scale = UInt128.One;
+        for (var i = 0; i < scaleDigits; i++)
+        {
+            scale *= 10;
+        }
+
+        scaledPrice = (UInt128)quoteReserveUnits * scale / baseReserveUnits;
+        return true;
+    }
+
+    private static PumpSwapQuoteRefusal Validate(
+        ulong baseReserveUnits,
+        ulong quoteReserveUnits,
+        ulong amountUnits,
+        in PumpSwapFees fees)
+    {
+        if (amountUnits == 0)
+        {
+            return PumpSwapQuoteRefusal.ZeroAmount;
+        }
+
+        if (baseReserveUnits == 0 || quoteReserveUnits == 0)
+        {
+            return PumpSwapQuoteRefusal.EmptyPool;
+        }
+
+        if (fees.TotalBps >= BasisPointScale)
+        {
+            return PumpSwapQuoteRefusal.FeeRateOutOfRange;
+        }
+
+        return PumpSwapQuoteRefusal.None;
+    }
+
+    /// <summary>
+    /// Finds the largest net whose net plus fee fits the budget.
+    ///
+    /// Dividing by the summed rate does not invert three independent ceilings,
+    /// so the estimate is corrected by stepping down. Each ceiling adds at most
+    /// one unit of slack, so the number of steps is bounded by the number of
+    /// fee components.
+    /// </summary>
+    private static bool TryFitNet(ulong budgetUnits, in PumpSwapFees fees, out ulong netUnits)
+    {
+        // budget = net + fee(net), so the estimate divides by 10000 + rate.
+        // Dividing by 10000 - rate answers a different question (the gross-up)
+        // and overshoots the budget on every input. An earlier version did that,
+        // and the fitting loop then refused 36 of 45 vectors.
+        var estimate = (ulong)((UInt128)budgetUnits * BasisPointScale
+            / (BasisPointScale + fees.TotalBps));
+
+        // The estimate can sit a few units either side of the true maximum. Each
+        // ceiling contributes at most one unit of slack, so the search is short.
+        for (var step = 0; step < 8; step++)
+        {
+            if (estimate == ulong.MaxValue) break;
+            var next = estimate + 1;
+            if (next > budgetUnits || (UInt128)next + ComposeFee(next, fees) > budgetUnits)
+            {
+                break;
+            }
+
+            estimate = next;
+        }
+
+        for (var step = 0; step < 8 && estimate > 0; step++)
+        {
+            if ((UInt128)estimate + ComposeFee(estimate, fees) <= budgetUnits)
+            {
+                break;
+            }
+
+            estimate--;
+        }
+
+        if (estimate == 0 || (UInt128)estimate + ComposeFee(estimate, fees) > budgetUnits)
+        {
+            netUnits = 0;
+            return false;
+        }
+
+        netUnits = estimate;
+        return true;
+    }
+
+    /// <summary>
+    /// Grosses an amount up so that the gross minus its own fee covers the
+    /// request. Steps up for the same reason <see cref="TryFitNet"/> steps
+    /// down.
+    /// </summary>
+    private static bool TryGrossUp(ulong wantedUnits, in PumpSwapFees fees, out ulong grossUnits)
+    {
+        var remainingRate = BasisPointScale - fees.TotalBps;
+        var estimate = CeilDiv((UInt128)wantedUnits * BasisPointScale, remainingRate);
+
+        if (!TryNarrow(estimate, out var candidate))
+        {
+            grossUnits = 0;
+            return false;
+        }
+
+        for (var step = 0; step < 8; step++)
+        {
+            var fee = ComposeFee(candidate, fees);
+            if (fee <= candidate && candidate - fee >= wantedUnits)
+            {
+                grossUnits = candidate;
+                return true;
+            }
+
+            if (candidate == ulong.MaxValue)
+            {
+                grossUnits = 0;
+                return false;
+            }
+
+            candidate++;
+        }
+
+        grossUnits = 0;
+        return false;
+    }
+
+    /// <summary>One independently rounded fee component, also used by the
+    /// legacy vault-transfer split. Callers validate the total rate.</summary>
+    public static ulong CeilBps(ulong amountUnits, ulong rateBps) =>
+        rateBps == 0
+            ? 0
+            : checked((ulong)CeilDiv((UInt128)amountUnits * rateBps, BasisPointScale));
+
+    private static UInt128 CeilDiv(UInt128 numerator, UInt128 denominator) =>
+        (numerator + denominator - 1) / denominator;
+
+    private static bool TryNarrow(UInt128 value, out ulong narrowed)
+    {
+        if (value > ulong.MaxValue)
+        {
+            narrowed = 0;
+            return false;
+        }
+
+        narrowed = (ulong)value;
+        return true;
+    }
+}

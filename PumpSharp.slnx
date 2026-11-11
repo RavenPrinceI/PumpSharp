@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PumpSharp/PumpSharp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PumpSharp.Tests/PumpSharp.Tests.csproj" />
+  </Folder>
+</Solution>

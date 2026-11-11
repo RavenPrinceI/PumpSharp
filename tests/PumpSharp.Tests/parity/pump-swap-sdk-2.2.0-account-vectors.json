@@ -1,0 +1,832 @@
+{
+  "sdk": "@pump-fun/pump-swap-sdk",
+  "version": "2.2.0",
+  "sourceFixtureDigest": "2c058f20918bc58b0e9f3b12dc184a4cc9c4b9e5aa319a8ac3b3c55f2c6f54a8",
+  "sourceSlot": 463621173,
+  "sourceAccount": "5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx",
+  "rawAccountSha256": "d8706882a217e82af619b754e37beedf9338a25787ebec717e7d69d2cf347c9d",
+  "vectors": [
+    {
+      "allocation": 2512,
+      "inputBase64": "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AAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAABQAAAAAAAAAAPCrdaQNAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAASAAAAAAAAAAAAUUqNDgAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAADwAAAAAAAAAAEPYedg8AAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAA0AAAAAAAAAACCb814QAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAAKAAAAAAAAAAAwQMhHEQAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAACAAAAAAAAAAAQOWcMBIAAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "bump": 255,
+      "admin": "FFWtrEQ4B4PKQoVuHYzZq8FabGkVatYzDpEVHsK5rrhF",
+      "flat": {
+        "lp": "25",
+        "protocol": "5",
+        "creator": "0"
+      },
+      "tiers": [
+        {
+          "threshold": "0",
+          "lp": "2",
+          "protocol": "93",
+          "creator": "30"
+        },
+        {
+          "threshold": "420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "95"
+        },
+        {
+          "threshold": "1470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "90"
+        },
+        {
+          "threshold": "2460000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "85"
+        },
+        {
+          "threshold": "3440000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "80"
+        },
+        {
+          "threshold": "4420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "75"
+        },
+        {
+          "threshold": "9820000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "70"
+        },
+        {
+          "threshold": "14740000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "65"
+        },
+        {
+          "threshold": "19650000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "60"
+        },
+        {
+          "threshold": "24560000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "55"
+        },
+        {
+          "threshold": "29470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "50"
+        },
+        {
+          "threshold": "34380000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "45"
+        },
+        {
+          "threshold": "39300000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "40"
+        },
+        {
+          "threshold": "44210000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "35"
+        },
+        {
+          "threshold": "49120000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "30"
+        },
+        {
+          "threshold": "54030000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "28"
+        },
+        {
+          "threshold": "58940000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "25"
+        },
+        {
+          "threshold": "63860000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "23"
+        },
+        {
+          "threshold": "68770000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "20"
+        },
+        {
+          "threshold": "73681000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "18"
+        },
+        {
+          "threshold": "78590000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "15"
+        },
+        {
+          "threshold": "83500000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "13"
+        },
+        {
+          "threshold": "88400000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "10"
+        },
+        {
+          "threshold": "93330000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "8"
+        },
+        {
+          "threshold": "98240000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "5"
+        }
+      ],
+      "stableTiers": [],
+      "exotic": {
+        "lp": "0",
+        "protocol": "0",
+        "creator": "0"
+      }
+    },
+    {
+      "allocation": 4073,
+      "inputBase64": "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AAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAABQAAAAAAAAAAPCrdaQNAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAASAAAAAAAAAAAAUUqNDgAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAADwAAAAAAAAAAEPYedg8AAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAA0AAAAAAAAAACCb814QAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAAKAAAAAAAAAAAwQMhHEQAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAACAAAAAAAAAAAQOWcMBIAAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "bump": 255,
+      "admin": "FFWtrEQ4B4PKQoVuHYzZq8FabGkVatYzDpEVHsK5rrhF",
+      "flat": {
+        "lp": "25",
+        "protocol": "5",
+        "creator": "0"
+      },
+      "tiers": [
+        {
+          "threshold": "0",
+          "lp": "2",
+          "protocol": "93",
+          "creator": "30"
+        },
+        {
+          "threshold": "420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "95"
+        },
+        {
+          "threshold": "1470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "90"
+        },
+        {
+          "threshold": "2460000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "85"
+        },
+        {
+          "threshold": "3440000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "80"
+        },
+        {
+          "threshold": "4420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "75"
+        },
+        {
+          "threshold": "9820000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "70"
+        },
+        {
+          "threshold": "14740000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "65"
+        },
+        {
+          "threshold": "19650000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "60"
+        },
+        {
+          "threshold": "24560000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "55"
+        },
+        {
+          "threshold": "29470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "50"
+        },
+        {
+          "threshold": "34380000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "45"
+        },
+        {
+          "threshold": "39300000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "40"
+        },
+        {
+          "threshold": "44210000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "35"
+        },
+        {
+          "threshold": "49120000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "30"
+        },
+        {
+          "threshold": "54030000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "28"
+        },
+        {
+          "threshold": "58940000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "25"
+        },
+        {
+          "threshold": "63860000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "23"
+        },
+        {
+          "threshold": "68770000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "20"
+        },
+        {
+          "threshold": "73681000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "18"
+        },
+        {
+          "threshold": "78590000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "15"
+        },
+        {
+          "threshold": "83500000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "13"
+        },
+        {
+          "threshold": "88400000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "10"
+        },
+        {
+          "threshold": "93330000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "8"
+        },
+        {
+          "threshold": "98240000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "5"
+        }
+      ],
+      "stableTiers": [
+        {
+          "threshold": "0",
+          "lp": "2",
+          "protocol": "93",
+          "creator": "30"
+        },
+        {
+          "threshold": "59000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "95"
+        },
+        {
+          "threshold": "300000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "90"
+        },
+        {
+          "threshold": "500000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "85"
+        },
+        {
+          "threshold": "700000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "80"
+        },
+        {
+          "threshold": "900000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "75"
+        },
+        {
+          "threshold": "2000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "70"
+        },
+        {
+          "threshold": "3000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "65"
+        },
+        {
+          "threshold": "4000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "60"
+        },
+        {
+          "threshold": "5000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "55"
+        },
+        {
+          "threshold": "6000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "50"
+        },
+        {
+          "threshold": "7000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "45"
+        },
+        {
+          "threshold": "8000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "40"
+        },
+        {
+          "threshold": "9000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "35"
+        },
+        {
+          "threshold": "10000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "30"
+        },
+        {
+          "threshold": "11000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "28"
+        },
+        {
+          "threshold": "12000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "25"
+        },
+        {
+          "threshold": "13000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "23"
+        },
+        {
+          "threshold": "14000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "20"
+        },
+        {
+          "threshold": "15000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "18"
+        },
+        {
+          "threshold": "16000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "15"
+        },
+        {
+          "threshold": "17000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "13"
+        },
+        {
+          "threshold": "18000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "10"
+        },
+        {
+          "threshold": "19000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "8"
+        },
+        {
+          "threshold": "20000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "5"
+        }
+      ],
+      "exotic": {
+        "lp": "0",
+        "protocol": "0",
+        "creator": "0"
+      }
+    },
+    {
+      "allocation": 4097,
+      "inputBase64": "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AAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAABQAAAAAAAAAAPCrdaQNAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAASAAAAAAAAAAAAUUqNDgAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAADwAAAAAAAAAAEPYedg8AAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAA0AAAAAAAAAACCb814QAAAAAAAAAAAAABQAAAAAAAAABQAAAAAAAAAKAAAAAAAAAAAwQMhHEQAAAAAAAAAAAAAUAAAAAAAAAAUAAAAAAAAACAAAAAAAAAAAQOWcMBIAAAAAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAFAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "bump": 255,
+      "admin": "FFWtrEQ4B4PKQoVuHYzZq8FabGkVatYzDpEVHsK5rrhF",
+      "flat": {
+        "lp": "25",
+        "protocol": "5",
+        "creator": "0"
+      },
+      "tiers": [
+        {
+          "threshold": "0",
+          "lp": "2",
+          "protocol": "93",
+          "creator": "30"
+        },
+        {
+          "threshold": "420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "95"
+        },
+        {
+          "threshold": "1470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "90"
+        },
+        {
+          "threshold": "2460000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "85"
+        },
+        {
+          "threshold": "3440000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "80"
+        },
+        {
+          "threshold": "4420000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "75"
+        },
+        {
+          "threshold": "9820000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "70"
+        },
+        {
+          "threshold": "14740000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "65"
+        },
+        {
+          "threshold": "19650000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "60"
+        },
+        {
+          "threshold": "24560000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "55"
+        },
+        {
+          "threshold": "29470000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "50"
+        },
+        {
+          "threshold": "34380000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "45"
+        },
+        {
+          "threshold": "39300000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "40"
+        },
+        {
+          "threshold": "44210000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "35"
+        },
+        {
+          "threshold": "49120000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "30"
+        },
+        {
+          "threshold": "54030000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "28"
+        },
+        {
+          "threshold": "58940000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "25"
+        },
+        {
+          "threshold": "63860000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "23"
+        },
+        {
+          "threshold": "68770000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "20"
+        },
+        {
+          "threshold": "73681000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "18"
+        },
+        {
+          "threshold": "78590000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "15"
+        },
+        {
+          "threshold": "83500000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "13"
+        },
+        {
+          "threshold": "88400000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "10"
+        },
+        {
+          "threshold": "93330000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "8"
+        },
+        {
+          "threshold": "98240000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "5"
+        }
+      ],
+      "stableTiers": [
+        {
+          "threshold": "0",
+          "lp": "2",
+          "protocol": "93",
+          "creator": "30"
+        },
+        {
+          "threshold": "59000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "95"
+        },
+        {
+          "threshold": "300000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "90"
+        },
+        {
+          "threshold": "500000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "85"
+        },
+        {
+          "threshold": "700000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "80"
+        },
+        {
+          "threshold": "900000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "75"
+        },
+        {
+          "threshold": "2000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "70"
+        },
+        {
+          "threshold": "3000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "65"
+        },
+        {
+          "threshold": "4000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "60"
+        },
+        {
+          "threshold": "5000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "55"
+        },
+        {
+          "threshold": "6000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "50"
+        },
+        {
+          "threshold": "7000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "45"
+        },
+        {
+          "threshold": "8000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "40"
+        },
+        {
+          "threshold": "9000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "35"
+        },
+        {
+          "threshold": "10000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "30"
+        },
+        {
+          "threshold": "11000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "28"
+        },
+        {
+          "threshold": "12000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "25"
+        },
+        {
+          "threshold": "13000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "23"
+        },
+        {
+          "threshold": "14000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "20"
+        },
+        {
+          "threshold": "15000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "18"
+        },
+        {
+          "threshold": "16000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "15"
+        },
+        {
+          "threshold": "17000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "13"
+        },
+        {
+          "threshold": "18000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "10"
+        },
+        {
+          "threshold": "19000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "8"
+        },
+        {
+          "threshold": "20000000000000",
+          "lp": "20",
+          "protocol": "5",
+          "creator": "5"
+        }
+      ],
+      "exotic": {
+        "lp": "20",
+        "protocol": "5",
+        "creator": "5"
+      }
+    }
+  ],
+  "poolQuote": {
+    "inputBase": "1000000",
+    "baseReserve": "674608099807340",
+    "rawQuoteReserve": "122781048996",
+    "virtualQuoteReserve": "-607888",
+    "effectiveQuoteReserve": "122780441108",
+    "protocolFees": "0",
+    "creatorFees": "607888",
+    "buyNetQuote": "183",
+    "buyGrossQuote": "187",
+    "sellGrossQuote": "182",
+    "sellNetQuote": "178"
+  }
+}

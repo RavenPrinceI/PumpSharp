@@ -1,0 +1,45 @@
+# Publishes to NuGet when a tag like v0.1.0-alpha.1 is pushed.
+# Uses NuGet trusted publishing (short-lived OIDC token), so no long-lived API
+# key is stored in the repository. Set it up once on nuget.org:
+#   Account -> Trusted Publishing -> add policy: owner/repo, workflow file
+#   "release.yml", environment "nuget". Then create the "nuget" environment in
+#   the GitHub repo settings with yourself as a required reviewer, and set the
+#   repository variable NUGET_USER to your nuget.org user name.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write   # create the GitHub release
+  id-token: write   # OIDC token for NuGet trusted publishing
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: nuget
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - name: Check tag matches package version
+        run: |
+          version=$(dotnet msbuild src/PumpSharp/PumpSharp.csproj -getProperty:Version)
+          test "v$version" = "$GITHUB_REF_NAME" || { echo "Tag $GITHUB_REF_NAME does not match Version $version"; exit 1; }
+      - run: dotnet restore PumpSharp.slnx --locked-mode
+      - run: dotnet build PumpSharp.slnx -c Release --no-restore
+      - run: dotnet test --solution PumpSharp.slnx -c Release --no-build
+      - run: dotnet pack src/PumpSharp/PumpSharp.csproj -c Release --no-build -o artifacts
+        env:
+          CI: 'true'
+      - name: NuGet login (trusted publishing)
+        uses: NuGet/login@v1
+        id: nuget
+        with:
+          user: ${{ vars.NUGET_USER }}
+      - run: dotnet nuget push "artifacts/*.nupkg" --api-key "${{ steps.nuget.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json
+      - run: gh release create "$GITHUB_REF_NAME" artifacts/* --generate-notes --prerelease=${{ contains(github.ref_name, '-') }}
+        env:
+          GH_TOKEN: ${{ github.token }}

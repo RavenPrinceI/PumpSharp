@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>PumpSharp</PackageId>
+    <Version>0.1.0-alpha.1</Version>
+    <Authors>RavenPrinceI</Authors>
+    <Description>Read-only .NET decoding and quote maths for the Pump bonding-curve and PumpSwap programs on Solana: event and account decoding, PDA derivation, and fee and quote calculations checked against vectors generated from the official SDKs. Unofficial; it does not sign or send transactions.</Description>
+    <PackageTags>solana;pump;pumpswap;bonding-curve;borsh;anchor;idl;decoder</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/RavenPrinceI/PumpSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RavenPrinceI/PumpSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsAotCompatible>true</IsAotCompatible>
+    <!-- TODO before 1.0: document every public member, then remove this. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The official IDLs are embedded because the fingerprint hashes these exact bytes. -->
+    <EmbeddedResource Include="protocol\pump.json" LogicalName="PumpSharp.protocol.pump.json" />
+    <EmbeddedResource Include="protocol\pump_amm.json" LogicalName="PumpSharp.protocol.pump_amm.json" />
+    <EmbeddedResource Include="protocol\pump_fees.json" LogicalName="PumpSharp.protocol.pump_fees.json" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="PumpSharp.Tests" />
+  </ItemGroup>
+
+</Project>

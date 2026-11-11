@@ -1,0 +1,13 @@
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+.vs/
+.vscode/
+.idea/
+node_modules/
+*.nupkg
+*.snupkg
+.env
+.env.*

@@ -1,0 +1,7249 @@
+{
+  "versions": {
+    "@pump-fun/pump-sdk": "4.3.1",
+    "@pump-fun/pump-swap-sdk": "2.2.0",
+    "@solana/spl-token": "0.4.15",
+    "@solana/spl-token-metadata": "0.1.6"
+  },
+  "token2022Program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "cases": [
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 0,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "900719925475",
+      "net": "9006298534815518",
+      "gross": "9008100064747468",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "922337203685478",
+      "net": "9222449699651090329",
+      "gross": "9224294466301405948",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "922337203685478",
+      "net": "9222449699651090330",
+      "gross": "9224294466301405949",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "1844674407370956",
+      "net": "18444899399302180658",
+      "gross": "18448588932602811896",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 1,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "1844674407370956",
+      "net": "18444899399302180659",
+      "gross": "18448588932602811897",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "2",
+      "net": "9997",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "2",
+      "net": "9998",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "25",
+      "net": "9974",
+      "gross": "10025",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "25",
+      "net": "9975",
+      "gross": "10026",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "26",
+      "net": "9975",
+      "gross": "10027",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "25",
+      "net": "9974",
+      "gross": "10025",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "25",
+      "net": "9975",
+      "gross": "10026",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "26",
+      "net": "9975",
+      "gross": "10027",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "25",
+      "net": "9974",
+      "gross": "10025",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "25",
+      "net": "9975",
+      "gross": "10026",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "26",
+      "net": "9975",
+      "gross": "10027",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "25",
+      "net": "9974",
+      "gross": "10025",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "25",
+      "net": "9975",
+      "gross": "10026",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "26",
+      "net": "9975",
+      "gross": "10027",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "22517998136853",
+      "net": "8984681256604140",
+      "gross": "9029773688963402",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "23058430092136940",
+      "net": "9200313606762638867",
+      "gross": "9246488257498522113",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "23058430092136940",
+      "net": "9200313606762638868",
+      "gross": "9246488257498522114",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "46116860184273880",
+      "net": "18400627213525277734",
+      "gross": "18492976514997044225",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 25,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "46116860184273880",
+      "net": "18400627213525277735",
+      "gross": "18492976514997044226",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "2",
+      "net": "9997",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "2",
+      "net": "9998",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "99",
+      "net": "9900",
+      "gross": "10098",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "99",
+      "net": "9901",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "99",
+      "net": "9902",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "100",
+      "net": "9899",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "100",
+      "net": "9900",
+      "gross": "10102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "101",
+      "net": "9900",
+      "gross": "10103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "100",
+      "net": "9899",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "100",
+      "net": "9900",
+      "gross": "10102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "101",
+      "net": "9900",
+      "gross": "10103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "100",
+      "net": "9899",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "100",
+      "net": "9900",
+      "gross": "10102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "101",
+      "net": "9900",
+      "gross": "10103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "90071992547410",
+      "net": "8917127262193583",
+      "gross": "9098181065394943",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "92233720368547759",
+      "net": "9131138316486228048",
+      "gross": "9316537410964420008",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "92233720368547759",
+      "net": "9131138316486228049",
+      "gross": "9316537410964420009",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "184467440737095517",
+      "net": "18262276632972456097",
+      "gross": "18633074821928840015",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 100,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "184467440737095517",
+      "net": "18262276632972456098",
+      "gross": "18633074821928840016",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "2",
+      "net": "7",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "2",
+      "net": "8",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "2",
+      "net": "97",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "2",
+      "net": "98",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "2",
+      "net": "9997",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "2",
+      "net": "9998",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "3",
+      "net": "6",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "3",
+      "net": "7",
+      "gross": "14",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "25",
+      "net": "74",
+      "gross": "132",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "25",
+      "net": "75",
+      "gross": "134",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "26",
+      "net": "75",
+      "gross": "135",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "99",
+      "net": "9900",
+      "gross": "10098",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "99",
+      "net": "9901",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "99",
+      "net": "9902",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "3",
+      "net": "6",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "3",
+      "net": "7",
+      "gross": "14",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "25",
+      "net": "74",
+      "gross": "132",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "25",
+      "net": "75",
+      "gross": "134",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "26",
+      "net": "75",
+      "gross": "135",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "2500",
+      "net": "7499",
+      "gross": "13332",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "2500",
+      "net": "7500",
+      "gross": "13334",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "2501",
+      "net": "7500",
+      "gross": "13335",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "3",
+      "net": "6",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "3",
+      "net": "7",
+      "gross": "14",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "25",
+      "net": "74",
+      "gross": "132",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "25",
+      "net": "75",
+      "gross": "134",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "26",
+      "net": "75",
+      "gross": "135",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "2500",
+      "net": "7499",
+      "gross": "13332",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "2500",
+      "net": "7500",
+      "gross": "13334",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "2501",
+      "net": "7500",
+      "gross": "13335",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "3",
+      "net": "6",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "3",
+      "net": "7",
+      "gross": "14",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "25",
+      "net": "74",
+      "gross": "132",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "25",
+      "net": "75",
+      "gross": "134",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "26",
+      "net": "75",
+      "gross": "135",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "2500",
+      "net": "7499",
+      "gross": "13332",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "2500",
+      "net": "7500",
+      "gross": "13334",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "2501",
+      "net": "7500",
+      "gross": "13335",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "2251799813685249",
+      "net": "6755399441055744",
+      "gross": "12009599006321324",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "2305843009213693952",
+      "net": "6917529027641081855",
+      "gross": "12297829382473034410",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "2305843009213693952",
+      "net": "6917529027641081856",
+      "gross": "12297829382473034411",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "4611686018427387904",
+      "net": "13835058055282163710",
+      "gross": "24595658764946068819",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 2500,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "4611686018427387904",
+      "net": "13835058055282163711",
+      "gross": "24595658764946068820",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "4",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "2",
+      "net": "7",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "2",
+      "net": "8",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "2",
+      "net": "97",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "2",
+      "net": "98",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "2",
+      "net": "9997",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "2",
+      "net": "9998",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "108",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "109",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "198",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "99",
+      "net": "1",
+      "gross": "199",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "99",
+      "net": "2",
+      "gross": "200",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "99",
+      "net": "9900",
+      "gross": "10098",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "99",
+      "net": "9901",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "99",
+      "net": "9902",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "10009",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "10010",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "10101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "19999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "9999",
+      "net": "1",
+      "gross": "20000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "10000",
+      "net": "1",
+      "gross": "20001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "20000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "90000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "100000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "990000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "1000000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "1010000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "99990000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "9999",
+      "net": "1",
+      "gross": "100000000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "10000",
+      "net": "1",
+      "gross": "100010000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "20000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "90000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "100000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "990000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "1000000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "1010000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "99990000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "9999",
+      "net": "1",
+      "gross": "100000000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "10000",
+      "net": "1",
+      "gross": "100010000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "9006298534815519",
+      "net": "900719925474",
+      "gross": "18455751272964292608",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "9222449699651090330",
+      "net": "922337203685477",
+      "gross": "27670116110564327422",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "9222449699651090331",
+      "net": "922337203685477",
+      "gross": "27670116110564327423",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "18444899399302180659",
+      "net": "1844674407370955",
+      "gross": "36893488147419103229",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "18444899399302180660",
+      "net": "1844674407370955",
+      "gross": "36893488147419103230",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "1",
+      "withheld": "0",
+      "net": "1",
+      "gross": "1",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "2",
+      "withheld": "0",
+      "net": "2",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "9",
+      "withheld": "0",
+      "net": "9",
+      "gross": "9",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "10",
+      "withheld": "0",
+      "net": "10",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "99",
+      "withheld": "0",
+      "net": "99",
+      "gross": "99",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "100",
+      "withheld": "0",
+      "net": "100",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "101",
+      "withheld": "0",
+      "net": "101",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "9999",
+      "withheld": "0",
+      "net": "9999",
+      "gross": "9999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "10000",
+      "withheld": "0",
+      "net": "10000",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "10001",
+      "withheld": "0",
+      "net": "10001",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "9007199254740993",
+      "withheld": "0",
+      "net": "9007199254740993",
+      "gross": "9007199254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "9223372036854775807",
+      "withheld": "0",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "9223372036854775808",
+      "withheld": "0",
+      "net": "9223372036854775808",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "18446744073709551614",
+      "withheld": "0",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551614",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "0",
+      "amount": "18446744073709551615",
+      "withheld": "0",
+      "net": "18446744073709551615",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "2",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "2",
+      "withheld": "1",
+      "net": "1",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "9",
+      "withheld": "1",
+      "net": "8",
+      "gross": "10",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "10",
+      "withheld": "1",
+      "net": "9",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "99",
+      "withheld": "1",
+      "net": "98",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "100",
+      "withheld": "1",
+      "net": "99",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "101",
+      "withheld": "1",
+      "net": "100",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "9999",
+      "withheld": "1",
+      "net": "9998",
+      "gross": "10000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "10000",
+      "withheld": "1",
+      "net": "9999",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "10001",
+      "withheld": "1",
+      "net": "10000",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "9007199254740993",
+      "withheld": "1",
+      "net": "9007199254740992",
+      "gross": "9007199254740994",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "9223372036854775807",
+      "withheld": "1",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "9223372036854775808",
+      "withheld": "1",
+      "net": "9223372036854775807",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "18446744073709551614",
+      "withheld": "1",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551615",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1",
+      "amount": "18446744073709551615",
+      "withheld": "1",
+      "net": "18446744073709551614",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "3",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "4",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "9",
+      "withheld": "2",
+      "net": "7",
+      "gross": "11",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "10",
+      "withheld": "2",
+      "net": "8",
+      "gross": "12",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "99",
+      "withheld": "2",
+      "net": "97",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "100",
+      "withheld": "2",
+      "net": "98",
+      "gross": "102",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "101",
+      "withheld": "2",
+      "net": "99",
+      "gross": "103",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "9999",
+      "withheld": "2",
+      "net": "9997",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "10000",
+      "withheld": "2",
+      "net": "9998",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "10001",
+      "withheld": "2",
+      "net": "9999",
+      "gross": "10003",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "9007199254740993",
+      "withheld": "2",
+      "net": "9007199254740991",
+      "gross": "9007199254740995",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "9223372036854775807",
+      "withheld": "2",
+      "net": "9223372036854775805",
+      "gross": "9223372036854775809",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "9223372036854775808",
+      "withheld": "2",
+      "net": "9223372036854775806",
+      "gross": "9223372036854775810",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "18446744073709551614",
+      "withheld": "2",
+      "net": "18446744073709551612",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "2",
+      "amount": "18446744073709551615",
+      "withheld": "2",
+      "net": "18446744073709551613",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "108",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "109",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "198",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "100",
+      "withheld": "99",
+      "net": "1",
+      "gross": "199",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "101",
+      "withheld": "99",
+      "net": "2",
+      "gross": "200",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "9999",
+      "withheld": "99",
+      "net": "9900",
+      "gross": "10098",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "10000",
+      "withheld": "99",
+      "net": "9901",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "10001",
+      "withheld": "99",
+      "net": "9902",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "9007199254740993",
+      "withheld": "99",
+      "net": "9007199254740894",
+      "gross": "9007199254741092",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "9223372036854775807",
+      "withheld": "99",
+      "net": "9223372036854775708",
+      "gross": "9223372036854775906",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "9223372036854775808",
+      "withheld": "99",
+      "net": "9223372036854775709",
+      "gross": "9223372036854775907",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "18446744073709551614",
+      "withheld": "99",
+      "net": "18446744073709551515",
+      "gross": "18446744073709551713",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "99",
+      "amount": "18446744073709551615",
+      "withheld": "99",
+      "net": "18446744073709551516",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "10001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "10002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "10009",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "10010",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "10099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "10100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "10101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "19999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "10000",
+      "withheld": "10000",
+      "net": "0",
+      "gross": "20000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "10001",
+      "withheld": "10000",
+      "net": "1",
+      "gross": "20001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "9007199254740993",
+      "withheld": "10000",
+      "net": "9007199254730993",
+      "gross": "9007199254750993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "9223372036854775807",
+      "withheld": "10000",
+      "net": "9223372036854765807",
+      "gross": "9223372036854785807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "9223372036854775808",
+      "withheld": "10000",
+      "net": "9223372036854765808",
+      "gross": "9223372036854785808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "18446744073709551614",
+      "withheld": "10000",
+      "net": "18446744073709541614",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "10000",
+      "amount": "18446744073709551615",
+      "withheld": "10000",
+      "net": "18446744073709541615",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "1000000001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "1000000002",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "1000000009",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "1000000010",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "1000000099",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "1000000100",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "1000000101",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "1000009999",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "10000",
+      "withheld": "10000",
+      "net": "0",
+      "gross": "1000010000",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "10001",
+      "withheld": "10001",
+      "net": "0",
+      "gross": "1000010001",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "9007199254740993",
+      "withheld": "1000000000",
+      "net": "9007198254740993",
+      "gross": "9007200254740993",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "9223372036854775807",
+      "withheld": "1000000000",
+      "net": "9223372035854775807",
+      "gross": "9223372037854775807",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "9223372036854775808",
+      "withheld": "1000000000",
+      "net": "9223372035854775808",
+      "gross": "9223372037854775808",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "18446744073709551614",
+      "withheld": "1000000000",
+      "net": "18446744072709551614",
+      "gross": "18446744074709551614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "1000000000",
+      "amount": "18446744073709551615",
+      "withheld": "1000000000",
+      "net": "18446744072709551615",
+      "gross": "18446744074709551615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "0",
+      "withheld": "0",
+      "net": "0",
+      "gross": "0",
+      "grossFitsU64": true
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "1",
+      "withheld": "1",
+      "net": "0",
+      "gross": "18446744073709551616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "2",
+      "withheld": "2",
+      "net": "0",
+      "gross": "18446744073709551617",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "9",
+      "withheld": "9",
+      "net": "0",
+      "gross": "18446744073709551624",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "10",
+      "withheld": "10",
+      "net": "0",
+      "gross": "18446744073709551625",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "99",
+      "withheld": "99",
+      "net": "0",
+      "gross": "18446744073709551714",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "100",
+      "withheld": "100",
+      "net": "0",
+      "gross": "18446744073709551715",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "101",
+      "withheld": "101",
+      "net": "0",
+      "gross": "18446744073709551716",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "9999",
+      "withheld": "9999",
+      "net": "0",
+      "gross": "18446744073709561614",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "10000",
+      "withheld": "10000",
+      "net": "0",
+      "gross": "18446744073709561615",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "10001",
+      "withheld": "10001",
+      "net": "0",
+      "gross": "18446744073709561616",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "9007199254740993",
+      "withheld": "9007199254740993",
+      "net": "0",
+      "gross": "18455751272964292608",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775807",
+      "withheld": "9223372036854775807",
+      "net": "0",
+      "gross": "27670116110564327422",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "9223372036854775808",
+      "withheld": "9223372036854775808",
+      "net": "0",
+      "gross": "27670116110564327423",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551614",
+      "withheld": "18446744073709551614",
+      "net": "0",
+      "gross": "36893488147419103229",
+      "grossFitsU64": false
+    },
+    {
+      "bps": 10000,
+      "cap": "18446744073709551615",
+      "amount": "18446744073709551615",
+      "withheld": "18446744073709551615",
+      "net": "0",
+      "gross": "36893488147419103230",
+      "grossFitsU64": false
+    }
+  ],
+  "schedules": [
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQAAAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "0",
+      "transition": "0",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQAAAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "1",
+      "transition": "0",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQAAAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551615",
+      "transition": "0",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQACAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "0",
+      "transition": "2",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQACAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "1",
+      "transition": "2",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQACAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "2",
+      "transition": "2",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQACAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "3",
+      "transition": "2",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQACAAAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551615",
+      "transition": "2",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQDoAwAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "0",
+      "transition": "1000",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQDoAwAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "999",
+      "transition": "1000",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQDoAwAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "1000",
+      "transition": "1000",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQDoAwAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "1001",
+      "transition": "1000",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQDoAwAAAAAAAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551615",
+      "transition": "1000",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQABAAAAAAAgAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "0",
+      "transition": "9007199254740993",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQABAAAAAAAgAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "9007199254740992",
+      "transition": "9007199254740993",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQABAAAAAAAgAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "9007199254740993",
+      "transition": "9007199254740993",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQABAAAAAAAgAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "9007199254740994",
+      "transition": "9007199254740993",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQABAAAAAAAgAP//////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551615",
+      "transition": "9007199254740993",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQD/////////////////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "0",
+      "transition": "18446744073709551615",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQD/////////////////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551614",
+      "transition": "18446744073709551615",
+      "bps": 25,
+      "cap": "100000",
+      "supply": "18446744073709551615"
+    },
+    {
+      "mint": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAbAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEKwIAAAAAAAAAAAAAAAAAAKCGAQAAAAAAGQD/////////////////////DycSAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "epoch": "18446744073709551615",
+      "transition": "18446744073709551615",
+      "bps": 9999,
+      "cap": "18446744073709551615",
+      "supply": "18446744073709551615"
+    }
+  ],
+  "metadataMints": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAwAAAExBQiAAAABodHRwczovL2V4YW1wbGUuaW52YWxpZC9tZXRhZGF0YQIAAAAHAAAAcHVycG9zZQYAAABwYXJpdHkFAAAAdW5pdHMDAAAAcmF3",
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwCmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEOAAAAUmVzZWFyY2ggdG9rZW4DAAAATEFCIAAAAGh0dHBzOi8vZXhhbXBsZS5pbnZhbGlkL21ldGFkYXRhAgAAAAcAAABwdXJwb3NlBgAAAHBhcml0eQUAAAB1bml0cwMAAAByYXc=",
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwCjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQELAAAA56CU56m2IPCfqpkDAAAATEFCIAAAAGh0dHBzOi8vZXhhbXBsZS5pbnZhbGlkL21ldGFkYXRhAgAAAAcAAABwdXJwb3NlBgAAAHBhcml0eQUAAAB1bml0cwMAAAByYXc="
+  ],
+  "account": {
+    "data": "AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAv//////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgcAAAACAAgACQMAAAAAAAA=",
+    "mint": "4vJ9JU1bJJE96FWSJKvHsmmFADCg4gpZQff4P3bkLKi",
+    "authority": "8qbHbw2BbbTHBW1sbeqakYXVKRQM8Ne7pLK7m6CVfeR",
+    "amount": "18446744073709551615",
+    "withheld": "777"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-10-31",
+  "accounting": 4,
+  "pricing": 10,
+  "references": [
+    {
+      "Name": "@pump-fun/pump-sdk",
+      "Version": "4.3.1",
+      "Integrity": "sha512-C39JUoafBMTwv9sKOGxJFakFypsH/C8VJs54xde1Rl1C9Z10i+XMdAJrYMk3CKPUd41RUMu/pM834GUMuOewVA==",
+      "Tarball": "https://registry.npmjs.org/@pump-fun/pump-sdk/-/pump-sdk-4.3.1.tgz"
+    },
+    {
+      "Name": "@pump-fun/pump-swap-sdk",
+      "Version": "2.2.0",
+      "Integrity": "sha512-YGHDcLexyL6/N8lDcLMmFBX6o5l7X0Nxqf2kzjRJ96plLatFZ9LXNJZErdl9yySe3dpKpO+/nzQHL4dHtL7nmQ==",
+      "Tarball": "https://registry.npmjs.org/@pump-fun/pump-swap-sdk/-/pump-swap-sdk-2.2.0.tgz"
+    }
+  ],
+  "idls": [
+    {
+      "name": "pump",
+      "sha256": "c53b8f5d39887afd27cc40a256527a421c2d91b64a9014dc4952a261f4f36a01",
+      "officialSdkRawIdlIdentical": true
+    },
+    {
+      "name": "pump_amm",
+      "sha256": "c2f8ce0bc0a740d9125644b2d95494c97199fce1604802f5ab0497184bdcce61",
+      "officialSdkRawIdlIdentical": true
+    },
+    {
+      "name": "pump_fees",
+      "sha256": "f111d2e5c9aa3d4e64d6a4e6b6f34300ccb1eaf6abc46834fe491836dc90aa74",
+      "officialSdkRawIdlIdentical": true
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "pump-sdk-4.3.1-vectors.json",
+      "sha256": "c4d2ab256d49b71cc396ff836167805a485d04accbf5471b2cd5eb1163ae216e",
+      "bytes": 64579,
+      "tests": "PumpParityTests",
+      "arrays": {
+        "vectors": 228
+      }
+    },
+    {
+      "name": "pump-swap-sdk-2.2.0-vectors.json",
+      "sha256": "f11cce5208f6e48dc925118dfe2cb701a110b30034d3ff8e064b26109aa67677",
+      "bytes": 541840,
+      "tests": "PumpSwapParityTests",
+      "arrays": {
+        "vectors": 519
+      }
+    },
+    {
+      "name": "pump-swap-sdk-2.2.0-account-vectors.json",
+      "sha256": "62dd9472dbcf8524f13328b1653a1661fe86bcda102be4c17f2fbb2daccbe9a5",
+      "bytes": 33128,
+      "tests": "PumpSwapFeeAccountDecoderTests",
+      "arrays": {
+        "vectors": 3
+      }
+    },
+    {
+      "name": "pump-swap-sdk-2.2.0-boost-vectors.json",
+      "sha256": "8eb684f8646611a830fd60370eff3982947d28100f0a2d894aaae27fec4cdc49",
+      "bytes": 208420,
+      "tests": "PumpSwapBoostParityTests",
+      "arrays": {
+        "vectors": 454
+      }
+    },
+    {
+      "name": "mayhem-sdk-vectors.json",
+      "sha256": "8de3bc1c1455386a00ba575e99f4d9658ede224df2d120d824f720e4d723d56b",
+      "bytes": 868670,
+      "tests": "MayhemParityTests",
+      "arrays": {
+        "solTiers": 3,
+        "stableTiers": 3,
+        "poolCases": 864,
+        "curveCases": 864,
+        "curveMath": 30
+      }
+    },
+    {
+      "name": "token-transfer-fee-vectors.json",
+      "sha256": "13c3349c4716ce64811ccab3b18b1a5a531cdc9b46e5f1cf690f10baaebc5e77",
+      "bytes": 160418,
+      "tests": "TokenTransferFeeParityTests",
+      "arrays": {
+        "cases": 784,
+        "schedules": 21,
+        "metadataMints": 3
+      }
+    },
+    {
+      "name": "transfer-execution-vectors.json",
+      "sha256": "f3dcde8643af2febd59f32e835525165184feff9e550586f53fb318f89eb43d5",
+      "bytes": 46195,
+      "tests": "TransferFeeExecutionTests",
+      "arrays": {
+        "cases": 128
+      }
+    },
+    {
+      "name": "epoch-web3-vectors.json",
+      "sha256": "24729d44a1932914bd773c74408a6c4a47dc129edc41ed1b4ef645037ed02b1a",
+      "bytes": 17219,
+      "tests": "ChainEpochParityTests",
+      "arrays": {
+        "schedules": 8
+      }
+    },
+    {
+      "name": "pool-v2-debit-vectors.json",
+      "sha256": "cf060874fc2914e6e78aa4bd3e6ef6db5eadd86cfc72734f3af745fd13752449",
+      "bytes": 208635,
+      "tests": "PoolV2ExecutionTests",
+      "arrays": {
+        "cases": 512
+      }
+    },
+    {
+      "name": "curve-account-vectors.json",
+      "sha256": "c90d6bd060b048015c68a2e7ccdf11c55a6edcfbb7446c47a88bc71b267ecc07",
+      "bytes": 43337,
+      "tests": "CurveAccountSetTests",
+      "arrays": {
+        "globals": 8,
+        "scenarios": 3
+      }
+    },
+    {
+      "name": "curve-v3-vectors.json",
+      "sha256": "3fe126bbe6040f7849a83db13d7435cf9d3b09192fdf7d8f6f3fdd94e0341972",
+      "bytes": 786980,
+      "tests": "CurveV3Tests",
+      "arrays": {
+        "cases": 3024
+      }
+    }
+  ],
+  "supportedExecution": [
+    {
+      "id": "CurveV2.NetQuoteBuy",
+      "inputs": "Net curve quote input; independent ceiling fees; legacy vault transfer gross-up.",
+      "guard": "No clamp/partial fill, complete/stale/future/signed-ambiguous state; real base supply retained."
+    },
+    {
+      "id": "CurveV2.BaseSell",
+      "inputs": "Exact base input; real quote settlement check; ceiling fees and net quote transfer.",
+      "guard": "Completed holdings refuse until observed pool routing."
+    },
+    {
+      "id": "CurveV3.ExactBaseBuy",
+      "inputs": "Exact base output; separate curve/synthetic legs, native migration fee, buyback subset and combined transfer gross-up.",
+      "guard": "Cashback, partial mayhem output, empty/drained/unrepresentable synthetic pool refuse."
+    },
+    {
+      "id": "PoolV2.NetQuoteBuy",
+      "inputs": "Declared net plus independent fees; official one-unit pricing shave; v2 vault/buyback transfer debit.",
+      "guard": "Validated effective/real reserves, flags, rates, mint/epoch context and freshness."
+    },
+    {
+      "id": "PoolV2.BaseSell",
+      "inputs": "Exact base input; effective pricing reserves, real liquidity check before fee deductions and net transfer.",
+      "guard": "Same context, settlement and overflow guards as pool buy."
+    }
+  ],
+  "conventions": [
+    "Curve core net input is compared to the zero-rate SDK buy wrapper at net+1; it is not advertised as a wallet budget.",
+    "Generic unshaved exact-quote primitives and exact-payout fitting use their documented core/fitting contracts; wrapper shaves are explicit relationships.",
+    "Budget quote arithmetic has reference coverage; budget execution orders and multi-hop are not implemented or claimed.",
+    "Base transfer fees, unknown extensions/layouts, unsupported cashback/partial execution and signed-ambiguous curve state refuse.",
+    "Native network cost, delay and adverse reserve shift are separate uncalibrated assumptions; parity does not certify execution accuracy."
+  ]
+}
